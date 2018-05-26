@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1AA26720B90591001DB984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA26620B90591001DB984 /* AppDelegate.swift */; };
+		AE1AA26920B90591001DB984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA26820B90591001DB984 /* ViewController.swift */; };
+		AE1AA26C20B90591001DB984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1AA26A20B90591001DB984 /* Main.storyboard */; };
+		AE1AA26E20B90597001DB984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1AA26D20B90597001DB984 /* Assets.xcassets */; };
+		AE1AA27120B90597001DB984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1AA26F20B90597001DB984 /* LaunchScreen.storyboard */; };
+		AE1AA27C20B90598001DB984 /* StrimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA27B20B90598001DB984 /* StrimiTests.swift */; };
+		AE1AA28720B90598001DB984 /* StrimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA28620B90598001DB984 /* StrimiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1AA27820B90598001DB984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1AA25B20B90591001DB984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1AA26220B90591001DB984;
+			remoteInfo = Strimi;
+		};
+		AE1AA28320B90598001DB984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1AA25B20B90591001DB984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1AA26220B90591001DB984;
+			remoteInfo = Strimi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE1AA26320B90591001DB984 /* Strimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AA26620B90591001DB984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1AA26820B90591001DB984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1AA26B20B90591001DB984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1AA26D20B90597001DB984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1AA27020B90597001DB984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1AA27220B90597001DB984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1AA27720B90598001DB984 /* StrimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrimiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AA27B20B90598001DB984 /* StrimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrimiTests.swift; sourceTree = "<group>"; };
+		AE1AA27D20B90598001DB984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1AA28220B90598001DB984 /* StrimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AA28620B90598001DB984 /* StrimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrimiUITests.swift; sourceTree = "<group>"; };
+		AE1AA28820B90598001DB984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1AA26020B90591001DB984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AA27420B90598001DB984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AA27F20B90598001DB984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1AA25A20B90591001DB984 = {
+			isa = PBXGroup;
+			children = (
+				AE1AA26520B90591001DB984 /* Strimi */,
+				AE1AA27A20B90598001DB984 /* StrimiTests */,
+				AE1AA28520B90598001DB984 /* StrimiUITests */,
+				AE1AA26420B90591001DB984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1AA26420B90591001DB984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AA26320B90591001DB984 /* Strimi.app */,
+				AE1AA27720B90598001DB984 /* StrimiTests.xctest */,
+				AE1AA28220B90598001DB984 /* StrimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1AA26520B90591001DB984 /* Strimi */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AA26620B90591001DB984 /* AppDelegate.swift */,
+				AE1AA26820B90591001DB984 /* ViewController.swift */,
+				AE1AA26A20B90591001DB984 /* Main.storyboard */,
+				AE1AA26D20B90597001DB984 /* Assets.xcassets */,
+				AE1AA26F20B90597001DB984 /* LaunchScreen.storyboard */,
+				AE1AA27220B90597001DB984 /* Info.plist */,
+			);
+			path = Strimi;
+			sourceTree = "<group>";
+		};
+		AE1AA27A20B90598001DB984 /* StrimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AA27B20B90598001DB984 /* StrimiTests.swift */,
+				AE1AA27D20B90598001DB984 /* Info.plist */,
+			);
+			path = StrimiTests;
+			sourceTree = "<group>";
+		};
+		AE1AA28520B90598001DB984 /* StrimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AA28620B90598001DB984 /* StrimiUITests.swift */,
+				AE1AA28820B90598001DB984 /* Info.plist */,
+			);
+			path = StrimiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1AA26220B90591001DB984 /* Strimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1AA28B20B90598001DB984 /* Build configuration list for PBXNativeTarget "Strimi" */;
+			buildPhases = (
+				AE1AA25F20B90591001DB984 /* Sources */,
+				AE1AA26020B90591001DB984 /* Frameworks */,
+				AE1AA26120B90591001DB984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strimi;
+			productName = Strimi;
+			productReference = AE1AA26320B90591001DB984 /* Strimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1AA27620B90598001DB984 /* StrimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1AA28E20B90598001DB984 /* Build configuration list for PBXNativeTarget "StrimiTests" */;
+			buildPhases = (
+				AE1AA27320B90598001DB984 /* Sources */,
+				AE1AA27420B90598001DB984 /* Frameworks */,
+				AE1AA27520B90598001DB984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1AA27920B90598001DB984 /* PBXTargetDependency */,
+			);
+			name = StrimiTests;
+			productName = StrimiTests;
+			productReference = AE1AA27720B90598001DB984 /* StrimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE1AA28120B90598001DB984 /* StrimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1AA29120B90598001DB984 /* Build configuration list for PBXNativeTarget "StrimiUITests" */;
+			buildPhases = (
+				AE1AA27E20B90598001DB984 /* Sources */,
+				AE1AA27F20B90598001DB984 /* Frameworks */,
+				AE1AA28020B90598001DB984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1AA28420B90598001DB984 /* PBXTargetDependency */,
+			);
+			name = StrimiUITests;
+			productName = StrimiUITests;
+			productReference = AE1AA28220B90598001DB984 /* StrimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1AA25B20B90591001DB984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Strimi;
+				TargetAttributes = {
+					AE1AA26220B90591001DB984 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AE1AA27620B90598001DB984 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AE1AA26220B90591001DB984;
+					};
+					AE1AA28120B90598001DB984 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AE1AA26220B90591001DB984;
+					};
+				};
+			};
+			buildConfigurationList = AE1AA25E20B90591001DB984 /* Build configuration list for PBXProject "Strimi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1AA25A20B90591001DB984;
+			productRefGroup = AE1AA26420B90591001DB984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1AA26220B90591001DB984 /* Strimi */,
+				AE1AA27620B90598001DB984 /* StrimiTests */,
+				AE1AA28120B90598001DB984 /* StrimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1AA26120B90591001DB984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AA27120B90597001DB984 /* LaunchScreen.storyboard in Resources */,
+				AE1AA26E20B90597001DB984 /* Assets.xcassets in Resources */,
+				AE1AA26C20B90591001DB984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AA27520B90598001DB984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AA28020B90598001DB984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1AA25F20B90591001DB984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AA26920B90591001DB984 /* ViewController.swift in Sources */,
+				AE1AA26720B90591001DB984 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AA27320B90598001DB984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AA27C20B90598001DB984 /* StrimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AA27E20B90598001DB984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AA28720B90598001DB984 /* StrimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1AA27920B90598001DB984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1AA26220B90591001DB984 /* Strimi */;
+			targetProxy = AE1AA27820B90598001DB984 /* PBXContainerItemProxy */;
+		};
+		AE1AA28420B90598001DB984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1AA26220B90591001DB984 /* Strimi */;
+			targetProxy = AE1AA28320B90598001DB984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE1AA26A20B90591001DB984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1AA26B20B90591001DB984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1AA26F20B90597001DB984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1AA27020B90597001DB984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1AA28920B90598001DB984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1AA28A20B90598001DB984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1AA28C20B90598001DB984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32AMT4U28;
+				INFOPLIST_FILE = Strimi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Strimi.Live.Strimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE1AA28D20B90598001DB984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32AMT4U28;
+				INFOPLIST_FILE = Strimi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Strimi.Live.Strimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE1AA28F20B90598001DB984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32AMT4U28;
+				INFOPLIST_FILE = StrimiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Strimi.Live.StrimiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strimi.app/Strimi";
+			};
+			name = Debug;
+		};
+		AE1AA29020B90598001DB984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32AMT4U28;
+				INFOPLIST_FILE = StrimiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Strimi.Live.StrimiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strimi.app/Strimi";
+			};
+			name = Release;
+		};
+		AE1AA29220B90598001DB984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32AMT4U28;
+				INFOPLIST_FILE = StrimiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Strimi.Live.StrimiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strimi;
+			};
+			name = Debug;
+		};
+		AE1AA29320B90598001DB984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W32AMT4U28;
+				INFOPLIST_FILE = StrimiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Strimi.Live.StrimiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strimi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1AA25E20B90591001DB984 /* Build configuration list for PBXProject "Strimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AA28920B90598001DB984 /* Debug */,
+				AE1AA28A20B90598001DB984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1AA28B20B90598001DB984 /* Build configuration list for PBXNativeTarget "Strimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AA28C20B90598001DB984 /* Debug */,
+				AE1AA28D20B90598001DB984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1AA28E20B90598001DB984 /* Build configuration list for PBXNativeTarget "StrimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AA28F20B90598001DB984 /* Debug */,
+				AE1AA29020B90598001DB984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1AA29120B90598001DB984 /* Build configuration list for PBXNativeTarget "StrimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AA29220B90598001DB984 /* Debug */,
+				AE1AA29320B90598001DB984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1AA25B20B90591001DB984 /* Project object */;
+}
