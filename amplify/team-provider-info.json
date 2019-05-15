@@ -1,0 +1,19 @@
+{
+    "strimienv": {
+        "awscloudformation": {
+            "AuthRoleName": "strimi-strimienv-20190511091345-authRole",
+            "UnauthRoleArn": "arn:aws:iam::827603859502:role/strimi-strimienv-20190511091345-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::827603859502:role/strimi-strimienv-20190511091345-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "strimi-strimienv-20190511091345-deployment",
+            "UnauthRoleName": "strimi-strimienv-20190511091345-unauthRole",
+            "StackName": "strimi-strimienv-20190511091345",
+            "StackId": "arn:aws:cloudformation:us-east-1:827603859502:stack/strimi-strimienv-20190511091345/c0df17f0-7407-11e9-a898-12926a34023c"
+        },
+        "categories": {
+            "auth": {
+                "cognitod77ee5d7": {}
+            }
+        }
+    }
+}

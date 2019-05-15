@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525A5FB1A169BB1ED6EA5802 /* Pods_Strimi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447CE14A5563E4F88CFFD9 /* Pods_Strimi.framework */; };
+		9461BED5B441684120760240 /* Pods_StrimiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC3DF45C09FE071E73B0201 /* Pods_StrimiTests.framework */; };
+		AE0E7DF4225FDC0B00F7A525 /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E7DF3225FDC0B00F7A525 /* loading.swift */; };
+		AE0E7DF6225FDC3C00F7A525 /* signInOrUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E7DF5225FDC3C00F7A525 /* signInOrUp.swift */; };
 		AE1AA26720B90591001DB984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA26620B90591001DB984 /* AppDelegate.swift */; };
 		AE1AA26920B90591001DB984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA26820B90591001DB984 /* ViewController.swift */; };
 		AE1AA26C20B90591001DB984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1AA26A20B90591001DB984 /* Main.storyboard */; };
@@ -14,6 +18,10 @@
 		AE1AA27120B90597001DB984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1AA26F20B90597001DB984 /* LaunchScreen.storyboard */; };
 		AE1AA27C20B90598001DB984 /* StrimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA27B20B90598001DB984 /* StrimiTests.swift */; };
 		AE1AA28720B90598001DB984 /* StrimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA28620B90598001DB984 /* StrimiUITests.swift */; };
+		AE1AA29720B98A7F001DB984 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AA29620B98A7F001DB984 /* LaunchScreen.swift */; };
+		AE538D5522872E31006356EF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE538D5422872E31006356EF /* awsconfiguration.json */; };
+		AE538D5722873295006356EF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE538D5622873295006356EF /* API.swift */; };
+		FA9F31364BE364F210E83C39 /* Pods_StrimiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99174786B0CAD3DBF815AE05 /* Pods_StrimiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BB32CBD4054101013279C77 /* Pods-StrimiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrimiTests.release.xcconfig"; path = "Target Support Files/Pods-StrimiTests/Pods-StrimiTests.release.xcconfig"; sourceTree = "<group>"; };
+		99174786B0CAD3DBF815AE05 /* Pods_StrimiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrimiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5499442E94613458B87C7C /* Pods-Strimi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strimi.debug.xcconfig"; path = "Target Support Files/Pods-Strimi/Pods-Strimi.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB1E2A708297D4D0C865019 /* Pods-StrimiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrimiTests.debug.xcconfig"; path = "Target Support Files/Pods-StrimiTests/Pods-StrimiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4447CE14A5563E4F88CFFD9 /* Pods_Strimi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strimi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C9A726C4880CC2B5E3DA6E /* Pods-StrimiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrimiUITests.release.xcconfig"; path = "Target Support Files/Pods-StrimiUITests/Pods-StrimiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE0E7DF3225FDC0B00F7A525 /* loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
+		AE0E7DF5225FDC3C00F7A525 /* signInOrUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInOrUp.swift; sourceTree = "<group>"; };
 		AE1AA26320B90591001DB984 /* Strimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1AA26620B90591001DB984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE1AA26820B90591001DB984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,15 @@
 		AE1AA28220B90598001DB984 /* StrimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1AA28620B90598001DB984 /* StrimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrimiUITests.swift; sourceTree = "<group>"; };
 		AE1AA28820B90598001DB984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1AA29620B98A7F001DB984 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		AE538D5422872E31006356EF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		AE538D5622873295006356EF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AE538D5B22875965006356EF /* Comfortaa_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa_Thin.ttf; sourceTree = "<group>"; };
+		AE538D5C22875966006356EF /* Comfortaa_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa_Regular.ttf; sourceTree = "<group>"; };
+		AE538D5D22875966006356EF /* Comfortaa_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa_Bold.ttf; sourceTree = "<group>"; };
+		BAC3DF45C09FE071E73B0201 /* Pods_StrimiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrimiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1F9B8A57A88DA8BCE7E934 /* Pods-StrimiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrimiUITests.debug.xcconfig"; path = "Target Support Files/Pods-StrimiUITests/Pods-StrimiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA69FAE5BCF68ADC5A41E3B /* Pods-Strimi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strimi.release.xcconfig"; path = "Target Support Files/Pods-Strimi/Pods-Strimi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525A5FB1A169BB1ED6EA5802 /* Pods_Strimi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9461BED5B441684120760240 /* Pods_StrimiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +95,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9F31364BE364F210E83C39 /* Pods_StrimiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12FF4A2E1F30B360CA10ACCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4447CE14A5563E4F88CFFD9 /* Pods_Strimi.framework */,
+				BAC3DF45C09FE071E73B0201 /* Pods_StrimiTests.framework */,
+				99174786B0CAD3DBF815AE05 /* Pods_StrimiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31A2D2047BCADCC33A2FE13C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A5499442E94613458B87C7C /* Pods-Strimi.debug.xcconfig */,
+				BDA69FAE5BCF68ADC5A41E3B /* Pods-Strimi.release.xcconfig */,
+				9FB1E2A708297D4D0C865019 /* Pods-StrimiTests.debug.xcconfig */,
+				3BB32CBD4054101013279C77 /* Pods-StrimiTests.release.xcconfig */,
+				BB1F9B8A57A88DA8BCE7E934 /* Pods-StrimiUITests.debug.xcconfig */,
+				A4C9A726C4880CC2B5E3DA6E /* Pods-StrimiUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE0E7DF2225FDBD100F7A525 /* SignUpPage */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E7DF3225FDC0B00F7A525 /* loading.swift */,
+				AE0E7DF5225FDC3C00F7A525 /* signInOrUp.swift */,
+			);
+			path = SignUpPage;
+			sourceTree = "<group>";
+		};
 		AE1AA25A20B90591001DB984 = {
 			isa = PBXGroup;
 			children = (
 				AE1AA26520B90591001DB984 /* Strimi */,
+				AE538D5422872E31006356EF /* awsconfiguration.json */,
+				AE538D5622873295006356EF /* API.swift */,
 				AE1AA27A20B90598001DB984 /* StrimiTests */,
 				AE1AA28520B90598001DB984 /* StrimiUITests */,
 				AE1AA26420B90591001DB984 /* Products */,
+				31A2D2047BCADCC33A2FE13C /* Pods */,
+				12FF4A2E1F30B360CA10ACCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +161,15 @@
 		AE1AA26520B90591001DB984 /* Strimi */ = {
 			isa = PBXGroup;
 			children = (
+				AE538D5A22875957006356EF /* Fonts */,
+				AE0E7DF2225FDBD100F7A525 /* SignUpPage */,
 				AE1AA26620B90591001DB984 /* AppDelegate.swift */,
 				AE1AA26820B90591001DB984 /* ViewController.swift */,
 				AE1AA26A20B90591001DB984 /* Main.storyboard */,
 				AE1AA26D20B90597001DB984 /* Assets.xcassets */,
 				AE1AA26F20B90597001DB984 /* LaunchScreen.storyboard */,
 				AE1AA27220B90597001DB984 /* Info.plist */,
+				AE1AA29620B98A7F001DB984 /* LaunchScreen.swift */,
 			);
 			path = Strimi;
 			sourceTree = "<group>";
@@ -125,6 +192,16 @@
 			path = StrimiUITests;
 			sourceTree = "<group>";
 		};
+		AE538D5A22875957006356EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE538D5D22875966006356EF /* Comfortaa_Bold.ttf */,
+				AE538D5C22875966006356EF /* Comfortaa_Regular.ttf */,
+				AE538D5B22875965006356EF /* Comfortaa_Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE1AA28B20B90598001DB984 /* Build configuration list for PBXNativeTarget "Strimi" */;
 			buildPhases = (
+				5D7993ADF43264A6ED9BD0CB /* [CP] Check Pods Manifest.lock */,
 				AE1AA25F20B90591001DB984 /* Sources */,
 				AE1AA26020B90591001DB984 /* Frameworks */,
 				AE1AA26120B90591001DB984 /* Resources */,
+				98C6FF67843AFCC4FF860923 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE1AA28E20B90598001DB984 /* Build configuration list for PBXNativeTarget "StrimiTests" */;
 			buildPhases = (
+				5EF6F12A2DAC4207825BA625 /* [CP] Check Pods Manifest.lock */,
 				AE1AA27320B90598001DB984 /* Sources */,
 				AE1AA27420B90598001DB984 /* Frameworks */,
 				AE1AA27520B90598001DB984 /* Resources */,
@@ -167,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE1AA29120B90598001DB984 /* Build configuration list for PBXNativeTarget "StrimiUITests" */;
 			buildPhases = (
+				B5C04390120C80EE388D3051 /* [CP] Check Pods Manifest.lock */,
 				AE1AA27E20B90598001DB984 /* Sources */,
 				AE1AA27F20B90598001DB984 /* Frameworks */,
 				AE1AA28020B90598001DB984 /* Resources */,
@@ -229,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE538D5522872E31006356EF /* awsconfiguration.json in Resources */,
 				AE1AA27120B90597001DB984 /* LaunchScreen.storyboard in Resources */,
 				AE1AA26E20B90597001DB984 /* Assets.xcassets in Resources */,
 				AE1AA26C20B90591001DB984 /* Main.storyboard in Resources */,
@@ -251,12 +333,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D7993ADF43264A6ED9BD0CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strimi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF6F12A2DAC4207825BA625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrimiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C6FF67843AFCC4FF860923 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strimi/Pods-Strimi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAppSync/AWSAppSync.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAppSync.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Strimi/Pods-Strimi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C04390120C80EE388D3051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrimiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE1AA25F20B90591001DB984 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1AA29720B98A7F001DB984 /* LaunchScreen.swift in Sources */,
 				AE1AA26920B90591001DB984 /* ViewController.swift in Sources */,
+				AE0E7DF4225FDC0B00F7A525 /* loading.swift in Sources */,
+				AE0E7DF6225FDC3C00F7A525 /* signInOrUp.swift in Sources */,
+				AE538D5722873295006356EF /* API.swift in Sources */,
 				AE1AA26720B90591001DB984 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,10 +623,11 @@
 		};
 		AE1AA28C20B90598001DB984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5499442E94613458B87C7C /* Pods-Strimi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W32AMT4U28;
+				DEVELOPMENT_TEAM = SUQ4777JYR;
 				INFOPLIST_FILE = Strimi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,10 +642,11 @@
 		};
 		AE1AA28D20B90598001DB984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA69FAE5BCF68ADC5A41E3B /* Pods-Strimi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W32AMT4U28;
+				DEVELOPMENT_TEAM = SUQ4777JYR;
 				INFOPLIST_FILE = Strimi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +661,7 @@
 		};
 		AE1AA28F20B90598001DB984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB1E2A708297D4D0C865019 /* Pods-StrimiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +683,7 @@
 		};
 		AE1AA29020B90598001DB984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB32CBD4054101013279C77 /* Pods-StrimiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +705,7 @@
 		};
 		AE1AA29220B90598001DB984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1F9B8A57A88DA8BCE7E934 /* Pods-StrimiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +726,7 @@
 		};
 		AE1AA29320B90598001DB984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C9A726C4880CC2B5E3DA6E /* Pods-StrimiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

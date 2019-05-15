@@ -1,0 +1,6 @@
+framework module Pods_Strimi {
+  umbrella header "Pods-Strimi-umbrella.h"
+
+  export *
+  module * { export * }
+}
